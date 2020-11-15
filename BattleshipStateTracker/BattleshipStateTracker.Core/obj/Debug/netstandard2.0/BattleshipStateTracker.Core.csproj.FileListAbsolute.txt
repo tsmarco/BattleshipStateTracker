@@ -1,0 +1,8 @@
+C:\s\BattleshipStateTracker\BattleshipStateTracker\BattleshipStateTracker.Core\bin\Debug\netstandard2.0\BattleshipStateTracker.Core.deps.json
+C:\s\BattleshipStateTracker\BattleshipStateTracker\BattleshipStateTracker.Core\bin\Debug\netstandard2.0\BattleshipStateTracker.Core.dll
+C:\s\BattleshipStateTracker\BattleshipStateTracker\BattleshipStateTracker.Core\bin\Debug\netstandard2.0\BattleshipStateTracker.Core.pdb
+C:\s\BattleshipStateTracker\BattleshipStateTracker\BattleshipStateTracker.Core\obj\Debug\netstandard2.0\BattleshipStateTracker.Core.AssemblyInfoInputs.cache
+C:\s\BattleshipStateTracker\BattleshipStateTracker\BattleshipStateTracker.Core\obj\Debug\netstandard2.0\BattleshipStateTracker.Core.AssemblyInfo.cs
+C:\s\BattleshipStateTracker\BattleshipStateTracker\BattleshipStateTracker.Core\obj\Debug\netstandard2.0\BattleshipStateTracker.Core.csproj.CoreCompileInputs.cache
+C:\s\BattleshipStateTracker\BattleshipStateTracker\BattleshipStateTracker.Core\obj\Debug\netstandard2.0\BattleshipStateTracker.Core.dll
+C:\s\BattleshipStateTracker\BattleshipStateTracker\BattleshipStateTracker.Core\obj\Debug\netstandard2.0\BattleshipStateTracker.Core.pdb
