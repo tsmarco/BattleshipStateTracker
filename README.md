@@ -14,7 +14,7 @@ interface or persistence layer is required.
 
 * cd BattleshipStateTracker folder 
 * start .sln solution in visual studio.
-
+* Deployed app: https://battleshipstatetrackerweb20201116074713.azurewebsites.net/
 
 ### To Run tests:
 
