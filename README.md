@@ -14,6 +14,7 @@ interface or persistence layer is required.
 
 * cd BattleshipStateTracker folder 
 * start .sln solution in visual studio.
+* Deployed swagger: https://battleshipstatetrackerweb20201116074713.azurewebsites.net/swagger/
 * Deployed app: https://battleshipstatetrackerweb20201116074713.azurewebsites.net/
 
 ### To Run tests:
@@ -37,6 +38,5 @@ interface or persistence layer is required.
 * Integration tests
 * Controller models + DTOs
 * Setup Dev, Staging, PROD environments (config files, CI/CD) 
-* Swagger/swashbuckle API documentation
 * BDD-FY test cases using BDDFY to make test cases more readable.
 * More detailed error handling.

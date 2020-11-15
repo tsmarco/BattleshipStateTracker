@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BattleshipStateTracker.Web</name>
+    </assembly>
+    <members>
+        <member name="M:BattleshipStateTracker.Controllers.BoardController.Reset(System.Int32)">
+            <summary>
+            Resets all boards
+            </summary>
+            <param name="size">Size of board</param>
+        </member>
+        <member name="M:BattleshipStateTracker.Controllers.BoardController.Index(System.String)">
+            <summary>
+            Retrieves a lists of board 
+            </summary>
+            <param name="board">Board Index(A or B)</param>
+        </member>
+        <member name="M:BattleshipStateTracker.Controllers.BoardController.AddBattleShip(System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Adds a battleship to a board
+            </summary>
+            <param name="startRow">Start Row</param>
+            <param name="endRow">End Row</param>
+            <param name="startCol">Start column</param>
+            <param name="endCol">End column</param>
+            <param name="board">Board Index(A or B)</param>
+        </member>
+        <member name="M:BattleshipStateTracker.Controllers.BoardController.Attack(System.Int32,System.Int32,System.String)">
+            <summary>
+            Attacks a coordinate on a board
+            </summary>
+            <param name="row">Row</param>
+            <param name="col">Column</param>
+            <param name="board">Board Index(A or B)</param>
+        </member>
+    </members>
+</doc>

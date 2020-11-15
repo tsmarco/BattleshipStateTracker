@@ -20,8 +20,10 @@ namespace BattleshipStateTracker.Controllers
             _logger = logger;
         }
 
-        // reset board 
-
+        /// <summary>
+        /// Resets all boards
+        /// </summary>
+        /// <param name="size">Size of board</param>
         [HttpGet("Reset")]
         public IActionResult Reset(int size = 10)
         {
@@ -36,8 +38,11 @@ namespace BattleshipStateTracker.Controllers
             }
         }
 
-        
 
+        /// <summary>
+        /// Retrieves a lists of board 
+        /// </summary>
+        /// <param name="board">Board Index(A or B)</param>
         [HttpGet("{board}")]
         public IActionResult Index(string board)
         {
@@ -52,7 +57,14 @@ namespace BattleshipStateTracker.Controllers
             }
         }
 
-        // place 
+        /// <summary>
+        /// Adds a battleship to a board
+        /// </summary>
+        /// <param name="startRow">Start Row</param>
+        /// <param name="endRow">End Row</param>
+        /// <param name="startCol">Start column</param>
+        /// <param name="endCol">End column</param>
+        /// <param name="board">Board Index(A or B)</param>
         [HttpPut("{board}/BattleShip")]
         public IActionResult AddBattleShip(int startRow, int endRow, int startCol, int endCol, string board)
         {
@@ -70,7 +82,12 @@ namespace BattleshipStateTracker.Controllers
             }
         }
 
-        //attack
+        /// <summary>
+        /// Attacks a coordinate on a board
+        /// </summary>
+        /// <param name="row">Row</param>
+        /// <param name="col">Column</param>
+        /// <param name="board">Board Index(A or B)</param>
         [HttpPut("{board}/BattleShip/Attack")]
         public IActionResult Attack(int row, int col, string board)
         {

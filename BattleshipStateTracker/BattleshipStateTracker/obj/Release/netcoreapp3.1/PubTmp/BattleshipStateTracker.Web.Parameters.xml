@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BattleshipStateTrackerWeb20201116074713" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\s\\BattleshipStateTracker\\BattleshipStateTracker\\BattleshipStateTracker\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
